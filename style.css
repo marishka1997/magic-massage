@@ -1,0 +1,793 @@
+@font-face {
+  font-family: 'Mont-Black';
+  src: url("./fonts/Mont-Black.woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont-ExtraLight';
+  src: url("./fonts/Mont-ExtraLight.woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont-Bold';
+  src: url("./fonts/Mont-Bold.woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont-Heavy';
+  src: url("./fonts/Mont-Heavy.woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont-SemiBold';
+  src: url("./fonts/Mont-SemiBold.woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mont-Thin';
+  src: url("./fonts/Mont-Thin.woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont-Regular';
+  src: url("./fonts/Mont-Regular.woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Mont-Light';
+  src: url("./fonts/Mont-Light.woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  width: 100vw;
+}
+
+.sales-offers {
+  display: flex;
+  justify-content: center;
+  background: rgba(17, 52, 111, 1);
+  padding: 0.7rem;
+}
+
+.sales-offers p {
+  margin: 0 1rem;
+  color: white;
+  font-family: 'Mont-Heavy';
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  font-size: 14px;
+}
+
+#lower-header {
+  display: flex;
+  align-items: center;
+  background-color: rgba(245, 253, 255, 0.8);
+  justify-content: space-between;
+  padding: 12px 100px;
+}
+
+#lower-header a:first-child {
+  color: rgba(33, 55, 134, 1);
+  font-family: 'Mont-Heavy';
+  display: flex;
+}
+
+#lower-header a img {
+  width: 156.01px;
+  height: 23.47px;
+  display: inline-block;
+  cursor: pointer;
+  color: inherit;
+}
+
+#pages {
+  display: flex;
+  list-style-type: none;
+}
+
+#pages li a:first-child {
+  font-family: 'Mont-Heavy' !important;
+  font-size: 16px !important;
+}
+
+#pages li a {
+  font-family: 'Mont-Light';
+  font-weight: 900;
+  color: #11346f;
+  margin: 0 30px;
+}
+
+#pages li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+  opacity: 0.85;
+}
+
+#lower-header button {
+  background-color: #197aff;
+  color: #fff;
+  border-radius: 60px;
+  padding: 12px 38px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-family: 'Mont-Heavy';
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  border: none;
+}
+
+#lower-header button:hover {
+  opacity: 0.85;
+}
+
+body {
+  width: 100%;
+}
+
+.main-container {
+  padding: 63px 5%;
+}
+
+h1 {
+  color: rgba(33, 55, 134, 1);
+  font-family: 'Mont-Heavy';
+  display: flex;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  font-size: 42px;
+}
+
+h1 .magic {
+  margin-left: 0.3rem;
+  color: #197aff;
+  display: flex;
+  margin-bottom: 23px;
+}
+
+h1 .magic img {
+  position: relative;
+  top: -1rem;
+  right: 1rem;
+  width: 90%;
+}
+
+#responsive-image {
+  display: none;
+}
+
+.responsiveShow {
+  display: none;
+}
+
+.about-us {
+  display: flex;
+  gap: 15rem;
+  margin-top: 88px;
+}
+
+h1 .magic::after {
+  position: relative;
+}
+
+.main-container p {
+  max-width: 731px;
+  font-family: 'Mont-Light';
+  font-size: 18px;
+}
+
+#magic-massage-types {
+  display: inline-flex;
+  flex-direction: row;
+  border: 0.1px solid rgba(174, 204, 255, 0.5);
+  background-color: #aeccff1a;
+  border-radius: 10px;
+  padding: 17px 1px;
+  margin-top: 33px;
+  margin-bottom: 34px;
+  margin-left: 13px;
+}
+
+#magic-massage-types div {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  border-left: 0.1px solid rgba(206, 226, 255, 1);
+  margin-right: 22px;
+  line-height: 1.5rem;
+}
+
+#magic-massage-types div h3 {
+  font-size: 14px;
+  color: #11346f;
+  font-family: 'Mont-Heavy';
+}
+
+#magic-massage-types div:first-child {
+  border-left: none;
+}
+
+#magic-massage-types ul {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#magic-massage-types ul li {
+  color: #262626;
+  font-family: 'Mont-Light';
+  font-size: 12px;
+  text-indent: -2em;
+}
+
+#bottom-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10rem;
+}
+
+#bottom-part-btn {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+#bundles strong {
+  color: #197aff;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+#bottom-part #getmassage-btn {
+  background: #197aff;
+  border: none;
+  border-radius: 60px;
+  padding: 1rem 4rem;
+  color: white;
+  font-family: 'Mont-Heavy';
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+}
+
+#bottom-part #getmassage-btn sup {
+  font-family: 'Mont-Light';
+}
+
+#bottom-part #getmassage-btn:hover {
+  opacity: 0.85;
+}
+
+#bottom-part #bundles {
+  background: rgba(77, 145, 207, 0.15);
+  border: none;
+  font-family: 'Mont-Light';
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  margin-top: 18px;
+  box-shadow: 0px 0px 14px #ffffff;
+  border-radius: 30px;
+  padding: 10px 28px;
+  color: #000;
+  font-size: 15px;
+}
+
+#bottom-part #bundles sup {
+  font-family: 'Mont-Light';
+}
+
+#bottom-part #bundles:hover {
+  opacity: 0.85;
+}
+
+i.fa-star {
+  color: rgba(246, 198, 68, 1);
+}
+
+#customer {
+  display: flex;
+  gap: 2rem;
+}
+
+#bottom-part-review {
+  display: flex;
+  gap: 16px;
+  border: solid rgba(174, 204, 255, 0.5);
+  border-radius: 110px;
+  padding: 11px 10px;
+}
+
+#bottom-part-review img {
+  width: 64px;
+  height: 64px;
+}
+
+#aboutCustomer {
+  display: grid;
+}
+
+#aboutCustomer p {
+  max-width: 222px;
+  font-family: 'Mont-Light';
+  font-size: 12px;
+  font-weight: 900;
+}
+
+.name-stars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.nameStars-verified {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.stars1 {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+}
+.stars {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.stars p {
+  color: rgba(120, 121, 121, 1);
+}
+
+.stars img {
+  width: 106px;
+}
+.stars span {
+  width: 280px;
+  align-self: center;
+  color: #11346f;
+  font-size: 18px;
+  font-family: 'Mont-Heavy';
+  padding: 5px;
+}
+
+.verified {
+  display: flex;
+  color: #197aff;
+}
+
+#magicmassage-features .sales-offers div {
+  display: flex;
+  align-items: center;
+}
+
+#magicmassage-features .sales-offers div img {
+  background: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 8px;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#magicmassage-features {
+  background: linear-gradient(
+    to right,
+    rgba(174, 204, 255, 1),
+    rgba(25, 122, 255, 1)
+  );
+  padding-bottom: 10rem;
+}
+
+#magicmassage-features h2 {
+  font-size: 37px;
+  margin-top: 29px;
+  text-align: center;
+  color: rgba(17, 52, 111, 1);
+  font-family: 'Mont-Light';
+}
+
+#magicmassage-features h3 {
+  font-size: 37px;
+  text-align: center;
+  color: white;
+  font-family: 'Mont-Heavy';
+  display: grid;
+  justify-items: center;
+}
+
+#purchases {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 6rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+#purchases .box {
+  border: 2px solid #197aff;
+  background: #f6f8fc;
+  border-radius: 18px;
+  display: grid;
+  justify-items: center;
+}
+
+.first-box {
+  opacity: 0.8;
+}
+
+.first-box .offer {
+  padding-top: 10px;
+}
+
+#purchases .box h4 {
+  color: #11346f;
+  font-family: 'Mont-Heavy';
+  font-size: 28px;
+  margin-bottom: 18px;
+}
+
+#purchases .box .product-image {
+  position: relative;
+  top: -1rem;
+  height: 100px;
+}
+
+#purchases .box:hover {
+  opacity: 70%;
+}
+.price,
+.old-price {
+  font-size: 32px;
+  color: #11346f;
+  font-family: 'Mont-Heavy';
+}
+
+.old-price {
+  opacity: 0.4;
+  text-decoration: line-through;
+}
+
+.whole-price {
+  display: flex;
+  gap: 3rem;
+}
+
+.shipping {
+  color: #11346f;
+  font-family: 'Mont-Heavy';
+  font-size: 13px;
+  margin-bottom: 33px;
+}
+
+.guarantee-moneyback {
+  display: flex;
+  gap: 1rem;
+  font-family: 'Mont-Heavy';
+  font-size: 12px;
+  color: #11346f;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.offer {
+  padding: 9px 30px 15px 30px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.afterpay {
+  display: flex;
+  font-family: 'Mont-Heavy';
+  align-items: center;
+  color: rgba(17, 52, 111, 1);
+  gap: 6px;
+  margin-bottom: 50px;
+}
+
+.afterpay .afterpay-span {
+  align-items: center;
+  padding: 13px 5px;
+  border-radius: 40px;
+  display: flex;
+}
+
+.afterpay .afterpayost {
+  color: black;
+}
+
+.offer button {
+  display: grid;
+  background: #197aff;
+  border: none;
+  border-radius: 60px;
+  padding: 2rem 2rem;
+  color: white;
+  font-family: 'Mont-Heavy';
+  letter-spacing: 0.1rem;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;
+  box-shadow: 1px 6px 20px 3px rgb(25 122 255 / 50%);
+}
+
+.payments {
+  width: 100%;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.green {
+  background-color: #57ac73;
+  border-radius: 50px;
+  padding: 6px 16px;
+  color: white;
+  margin: 10px 0 20px 0;
+}
+
+.saving {
+  display: grid;
+  grid-template-columns: 5, 1fr;
+  grid-template-rows: 5, 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: solid rgba(174, 204, 255, 1);
+  border-radius: 18px;
+  color: #11346f;
+  margin-bottom: 50px;
+}
+
+.saveoff-moneyback {
+  display: flex;
+  border: solid rgba(174, 204, 255, 1);
+  border-radius: 11px;
+}
+
+.saving .saveoff {
+  display: grid;
+  align-items: center;
+  border: solid rgba(153, 210, 152, 1);
+  background: rgba(191, 245, 190, 1);
+  border-radius: 9px;
+  padding: 1rem;
+  position: relative;
+  left: -4px;
+  font-family: 'Mont-Heavy';
+}
+
+.saving .guarantee-moneyback {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  width: 200px;
+}
+
+.saving .remainings {
+  text-align: center;
+  font-size: 12px;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  font-family: 'Mont-Heavy';
+}
+
+.best {
+  background-color: rgba(172, 87, 128, 1);
+  border-radius: 50px;
+  padding: 6px 16px;
+  margin: 10px 0 20px 0;
+  color: white;
+}
+
+#reviews {
+  padding-bottom: 1rem;
+  background-color: rgba(246, 248, 252, 1);
+}
+
+#reviews h2 {
+  font-size: 37px;
+  color: rgba(33, 55, 134, 1);
+  display: flex;
+  justify-content: center;
+  padding-top: 6rem;
+}
+
+#reviews h2 strong {
+  margin-left: 0.3rem;
+  color: #197aff;
+  display: grid;
+}
+
+#reviews h2 strong img {
+  position: relative;
+  top: -1rem;
+  right: 1rem;
+  margin-top: 13px;
+  width: 90%;
+}
+
+#reviews .stars p {
+  color: #11346f;
+}
+
+#magicmassage-review-blocks {
+  padding: 54px 102px;
+}
+
+#review-blocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.card {
+  max-width: 325px;
+  border-radius: 18px;
+  background: white;
+  width: 325px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card * {
+  margin-bottom: 10px;
+}
+
+.review-text {
+  font-family: 'Mont-Light';
+}
+
+.review-author {
+  color: #11346f;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Mont-Heavy';
+}
+
+.review-verifiedbuyer {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-verifiedbuyer div {
+  display: flex;
+  color: rgba(137, 194, 95, 1);
+  gap: 8px;
+  align-items: center;
+}
+
+#review-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#review-head #write-review {
+  border: 1.6px solid rgba(58, 48, 117, 1);
+  font-family: 'Mont-Light';
+  color: rgba(58, 48, 117, 1);
+  font-size: 14px;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  background: rgba(246, 248, 252, 1);
+  cursor: pointer;
+}
+
+#review-head #write-review:hover {
+  background: rgb(211, 217, 230);
+}
+
+.review-img-author {
+  display: flex;
+  gap: 9px;
+}
+
+.review-img-author p {
+  font-size: 11px;
+  color: #89c25f;
+  font-size: 11px;
+  font-family: 'Mont-Heavy';
+}
+
+.review-img-author img {
+  width: 17px;
+  height: 17px;
+}
+
+.review-info {
+  padding: 13px;
+  display: flex;
+  flex-direction: column;
+  width: 285px;
+}
+
+#faq {
+  background: #11346f;
+  color: rgba(255, 255, 255, 1);
+  padding-bottom: 17rem;
+}
+
+#faq h2 {
+  font-size: 37px;
+  font-family: 'Mont-Light';
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+#faq h2 strong {
+  margin-left: 0.3rem;
+  display: grid;
+  font-family: 'Mont-Heavy';
+}
+
+#faq h2 strong img {
+  position: relative;
+  top: -1rem;
+  right: 1rem;
+  margin-top: 13px;
+  width: 90%;
+}
+
+.faq-qa {
+  margin-bottom: 31.7px;
+}
+
+.faq-questions {
+  display: flex;
+  align-items: center;
+  width: 45rem;
+  justify-content: space-between;
+  padding: 1rem;
+  font-family: 'Mont-Light' !important;
+  border: solid rgba(25, 64, 129, 1);
+  border-radius: 9px;
+  background: rgba(49, 84, 142, 1);
+  cursor: pointer;
+}
+
+.about-us-faq {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 13rem !important;
+}
+
+.about-us-faq span img {
+  object-fit: contain;
+}
+
+.faq-answers p {
+  border: 0.1px solid rgba(49, 84, 142, 1);
+  padding: 1rem;
+  border-radius: 0 0px 9px 9px;
+  position: relative;
+  top: -5px;
+  background: #11346f;
+  z-index: 2;
+}
+
+#see-all:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.3rem;
+}

@@ -1,0 +1,247 @@
+@media only screen and (max-width: 800px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  
+  body {
+    position: relative;
+  }
+
+  .logo {
+    max-width: 146.24px;
+    flex: 0 0 auto;
+  }
+
+  h1 {
+    display: grid;
+    letter-spacing: 0;
+    word-spacing: 0;
+    font-size: 23px;
+  }
+
+  h1 .magic img {
+    right: 0;
+    top: 0rem;
+  }
+
+  h1 .magic::after {
+    content: url(../icons/responsive-arrow.png);
+    position: relative;
+  }
+
+  .main-container-text {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  #responsive-image {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+  }
+  #pages {
+    display: none;
+  }
+
+  #lower-header button {
+    display: none;
+  }
+
+  #lower-header a {
+    margin: auto;
+    padding: 5px;
+  }
+
+  .responsiveShow {
+    display: block;
+  }
+
+  #full-image,
+  .responsiveHide {
+    display: none;
+  }
+
+  .main-container {
+    padding: 13px 17px;
+    background-color: rgba(174, 204, 255, 0.1);
+  }
+
+  .main-container p {
+    font-size: 14px;
+  }
+
+  .main- p span {
+    display: none;
+  }
+
+  #magic-massage-types ul li {
+    display: none;
+  }
+
+  #magic-massage-types div,
+  #magic-massage-types {
+    background-color: rgba(174, 204, 255, 0.1);
+  }
+  #magic-massage-types div h3 {
+    font-size: 12px;
+  }
+
+  .about-us {
+    display: block;
+    margin: 0;
+  }
+  #about-us-info p {
+    text-align: center;
+  }
+
+  #bottom-part {
+    display: grid;
+    margin: 0;
+  }
+
+  #bottom-part-review {
+    margin-top: 10px;
+  }
+
+  #aboutCustomer p {
+    font-size: 11px;
+  }
+
+  #bottom-part #getmassage-btn {
+    padding: 1rem 2rem;
+  }
+
+  #bottom-part #getmassage-btn sup {
+    display: none;
+  }
+
+  .sales-offers p {
+    font-size: 12px;
+    margin: 0 0.4rem;
+  }
+  #hide-third-offer {
+    display: none !important;
+  }
+
+  #magicmassage-features .sales-offers div {
+    display: grid;
+    justify-items: center;
+  }
+
+  .upper-header div p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  #purchases {
+    display: grid;
+  }
+
+  .afterpay {
+    font-size: 9px;
+    margin: 0;
+  }
+  .afterpay-span {
+    padding: 0 !important;
+  }
+
+  .saving {
+    margin-bottom: 1rem;
+  }
+
+  .saving .remainings {
+    padding: 0.5rem;
+  }
+
+  .saving .guarantee-moneyback {
+    padding: 0.5rem 2rem;
+  }
+
+  .saving .saveoff {
+    padding: 0.5rem;
+  }
+
+  .saving * {
+    font-size: 10px;
+  }
+  .offer {
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .offer button {
+    padding: 0.7rem 2rem;
+  }
+
+  #magicmassage-review-blocks {
+    padding: 0;
+  }
+
+  #review-blocks {
+    padding: 3rem;
+    justify-items: center;
+    overflow-x: auto;
+  }
+  .reviewText {
+    width: 17rem;
+  }
+
+  #reviews h2 {
+    font-size: 30px;
+    display: grid;
+    justify-items: center;
+    font-family: "Mont-Heavy";
+  }
+  #review-head {
+    padding: 1rem;
+  }
+  #review-head #write-review {
+    font-size: 10px;
+    padding: 1rem 1.2rem;
+    width: auto;
+  }
+
+  #faq h2 {
+    display: grid;
+    justify-items: center;
+  }
+  .faq-questions {
+    width: auto;
+  }
+
+  .about-us-faq img {
+    margin-bottom: 3rem;
+  }
+
+  .about-us-faq {
+    padding: 2rem;
+    display: grid;
+    gap: 0 !important;
+  }
+
+  #faq {
+    padding-bottom: 0rem !important;
+  }
+
+  #see-all {
+    text-align: center;
+  }
+
+  .roundbutton.responsiveShow {
+    width: 25px;
+    height: 25px;
+    background: rgba(203, 206, 214, 1);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .scrollableButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  #review-blocks {
+    scroll-behavior: smooth;
+  }
+}
