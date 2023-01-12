@@ -8,7 +8,7 @@ for adults, kids, and pets!*
 The feature of the assignment was implementation on pure JS 
 without the use of libraries and frameworks.
 
-Project was implemented for company ***Megobari.ch***
+Project was implemented for company **Megobari.ch**
 
 ## Used Technologies 
 - HTML
